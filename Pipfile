@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.2"
+djangorestframework = "*"
+django-filter = "*"
+django-cors-headers = "*"
+requests = "*"
+python-decouple = "*"
+pyjwt = "*"
+redis = "*"
+django-cleanup = "*"
+celery = "*"
+pillow = "*"
+psycopg2 = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true

@@ -1,0 +1,10 @@
+{
+    "platform": "django",
+    "app": "learning-shid",
+    "disks": [
+      {
+        "name": "my-lea",
+        "mountTo": "media"
+      }
+    ]
+  }
